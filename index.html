@@ -5,9 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <title>Fotolog</title>
   <link rel="stylesheet" href="assets/css/bulma.css">
+  <link rel="stylesheet" href="assets/fonts/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+  <nav class="navbar has-dark-grey-bg vcenter">
+    <div class="navbar-brand">
+      <a href="index.html" class="navbar-item">
+        <img src="assets/img/logo-header.png" alt="">
+      </a>
+      <button class="button navbar-burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-item">
+        <div class="control has-icons-right">
+          <input class="input is-small" type="text" placeholder="Búsqueda">
+          <span class="icon is-small is-right">
+            <span class="fas fa-search"></span>
+          </span>
+        </div>
+      </div>
+      <div class="navbar-item has-dropdown is-hoverable has-light-grey-bg">
+        <a class="navbar-link has-text-bright-blue">Más fotos</a>
+        <div class="navbar-dropdown">
+          <a href="" class="navbar-item">Populares</a>
+          <a href="" class="navbar-item">Grupos</a>
+          <a href="" class="navbar-item">Directorio</a>
+        </div>
+      </div>
+    </div>
+  </nav>
   <script src="assets/js/jquery-3.2.1.js"></script>
   <script src="assets/js/app.js"></script>
 </body>

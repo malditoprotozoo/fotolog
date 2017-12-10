@@ -1,0 +1,66 @@
+body {
+  font-family: Lato, sans-serif;
+}
+
+.has-dark-grey-bg {
+  background-color: #161B1F;
+}
+
+.has-light-grey-bg {
+  background-color: #333333;
+}
+
+.has-text-bright-blue {
+  color: #00CBFE;
+}
+
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+nav.navbar {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.navbar-menu .control .input {
+  background-color: #333333;
+  color: #9A9A9A;
+  border: 1px solid #47484A;
+  border-radius: 2px;
+}
+
+.navbar-menu .control .input::-webkit-input-placeholder {
+  color: #9A9A9A;
+}
+
+.navbar-menu .control .input::-moz-placeholder {
+  color: #9A9A9A;  
+}
+
+.navbar-menu .control .input:-ms-input-placeholder {
+  color: #9A9A9A;  
+}
+
+.navbar-menu .control .input:-moz-placeholder {
+  color: #9A9A9A;  
+}
+
+.navbar-menu .control .icon {
+  color: #9A9A9A;
+}
+
+.navbar-item.has-dropdown {
+  border-radius: 2px;
+  font-size: 0.750em;
+}
+
+.navbar-item, .navbar-link {
+  padding: 0rem 1rem;
+}
+
+.navbar-item.has-dropdown .navbar-link.has-text-bright-blue {
+  border-radius: 2px;
+  padding-right: 2.5em;
+}
