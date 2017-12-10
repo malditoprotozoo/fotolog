@@ -1,3 +1,7 @@
+html {
+  background-color: #202020;
+}
+
 body {
   font-family: Lato, sans-serif;
 }
@@ -14,6 +18,10 @@ body {
   color: #00CBFE;
 }
 
+.has-text-light-grey {
+  color: #9A9A9A;
+}
+
 .vcenter {
   display: flex;
   align-items: center;
@@ -22,6 +30,16 @@ body {
 nav.navbar {
   padding-left: 1em;
   padding-right: 1em;
+}
+
+.navbar .navbar-brand a:hover {
+  background-color: #161B1F;
+}
+
+.navbar .navbar-brand .navbar-burger {
+  border: none;
+  background-color: #161B1F;
+  color: #999999;
 }
 
 .navbar-menu .control .input {
@@ -52,7 +70,7 @@ nav.navbar {
 }
 
 .navbar-item.has-dropdown {
-  border-radius: 2px;
+  border-radius: 4px;
   font-size: 0.750em;
 }
 
@@ -61,6 +79,63 @@ nav.navbar {
 }
 
 .navbar-item.has-dropdown .navbar-link.has-text-bright-blue {
-  border-radius: 2px;
+  height: 18px;
+  padding-top: 1.03em;
+  padding-bottom: 1.03em;
+  border-radius: 4px;
   padding-right: 2.5em;
+  border: 1px solid #47484A;
+}
+
+.navbar-item.has-dropdown .navbar-link.has-text-bright-blue:hover {
+  color: #00CBFE;
+  background-color: #595959;
+}
+
+.navbar-item.has-dropdown.is-active .navbar-link {
+  color: #00CBFE;
+  background-color: #595959;
+}
+
+.navbar-item.has-dropdown .navbar-link::after {
+  border-color: #00CBFE;
+}
+
+.navbar-dropdown {
+  font-size: 0.950em;
+  width: 100%;
+  padding: 0;
+  border: 1px solid #47484A;
+}
+
+.navbar-dropdown a.navbar-item:hover {
+  background-color: #333333;
+  color: #00CBFE;
+}
+
+.navbar-end .navbar-item .button {  
+  border: 1px solid #47484A;
+}
+
+.navbar-end .navbar-item .button:hover {
+  background-color: #595959;
+  color: #00CBFE;
+}
+
+.container {
+  background-color: #303030;
+  margin-top: 1em;
+}
+
+figure.image img {
+  width: auto;
+  max-height: 60vh;
+}
+
+figure.image {
+  text-align: center;
+}
+
+.tile.is-child {
+  padding: 1em;
 }
