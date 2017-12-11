@@ -75,7 +75,7 @@
         <div class="tile is-parent">
           <div class="tile is-child picked-color-text">
             <div class="columns is-mobile">
-              <div class="column is-2 hcenter">
+              <div class="column is-2-desktop is-2-tablet is-3-mobile hcenter">
                 <div class="profile-pic is-inline-block">
                   <img src="assets/img/gwenpool_selfie_by_manu_chann-dawn19u.png" alt="">
                 </div>
@@ -130,11 +130,11 @@
         </div>
       </div>
     </div>
-    <div id="comments" class="font-size-s picked-color-text">
+    <div class="font-size-s picked-color-text">
       <div class="columns">
-        <div class="column is-8">
+        <div id="comments" class="column is-8">
           <div class="columns is-mobile">
-            <div class="column is-2 hcenter">
+            <div class="column is-2-desktop is-2-tablet is-3-mobile hcenter">
               <div class="profile-pic">
                 <img src="assets/img/kamala-khan.jpg" alt="">
               </div>
@@ -142,6 +142,43 @@
             <div class="column comment-text">
               <p><span class="nickname">Kamala</span> On <span class="date">25/01/2010</span></p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore reiciendis modi animi. Iusto aliquid exercitationem saepe nesciunt iste laboriosam! Quos, unde, neque. Qui placeat ratione a, aliquid minus beatae illum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="post-a-comment" class="font-size-s">
+      <div class="columns hcenter">
+        <div class="column is-8">
+          <h2 class="subtitle is-block picked-color-text">Leave a Comment!</h2>
+          <div class="field">
+            <label for="" class="picked-color-text font-size-s">Name</label>
+            <div class="control">
+              <input id="nickname-content" type="text">
+            </div>
+            <label for="" class="picked-color-text font-size-s">E-mail</label>
+            <div class="control">
+              <input id="e-mail-content" type="text">
+            </div>
+            <label for="" class="picked-color-text font-size-s">Comment</label>
+            <div class="control">
+              <textarea name="" id="comment-content" cols="30" rows="10"></textarea>
+            </div>
+            <div class="file">
+              <label class="file-label">
+                <input class="file-input" type="file" name="resume">
+                <span class="file-cta">
+                  <span class="file-icon">
+                    <span class="fas fa-upload"></span>
+                  </span>
+                  <span class="file-label">
+                    Choose a Profile Pic
+                  </span>
+                </span>
+              </label>
+            </div>
+            <div class="control">
+              <button id="submit" class="button is-small">Submit</button>
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: Lato, sans-serif;
+  overflow: hidden;
 }
 
 /* Colors */
@@ -270,6 +271,10 @@ select.languages:hover {
   padding: 1em;
 }
 
+#post-a-comment {
+  padding: 1em;
+}
+
 .comment-text {
   border-left: 1px solid;
   padding-left: 1em;
@@ -277,6 +282,33 @@ select.languages:hover {
 
 .nickname {
   font-weight: 700;
+}
+
+#submit {
+  font-family: Lato, sans-serif;
+  background-color: #333333;
+  color: #00CBFE;
+  border: 1px solid #47484A;
+  font-size: 12px;
+  margin-top: 1em;
+}
+
+.file-cta {
+  font-family: Lato, sans-serif;
+  background-color: #333333;
+  color: #00CBFE;
+  border: 1px solid #47484A;
+  font-size: 12px;
+}
+
+#post-a-comment .file-cta:hover {
+  color: #00CBFE;
+  border: 1px solid #47484A;
+  background-color: #595959;
+}
+
+#comments .columns {
+  margin-left: 0;
 }
 
 @media (max-width: 1023px) {
