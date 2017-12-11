@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
+  <!-- Navbar -->
   <nav class="navbar has-dark-grey-bg vcenter">
     <div class="navbar-brand">
       <a href="index.html" class="navbar-item">
@@ -49,20 +50,164 @@
       </button>
     </div>
   </nav>
-  <div class="container">
+  <!-- Main container -->
+  <div id="main-container" class="container has-light-grey-bg">
     <div class="tile is-ancestor">
-      <div class="tile is-parent is-8">
-        <div class="tile is-child">
-          <figure class="image">
-            <img src="assets/img/gwenpool_selfie_by_manu_chann-dawn19u.png" alt="">
-          </figure>
+      <!-- Here will go the images -->
+      <div class="tile is-vertical is-8">
+        <div class="tile is-parent">
+          <div class="tile is-child hcenter">
+            <div class="arrow vcenter">
+              <a href="#" class="has-text-white">
+                <span class="fas fa-angle-left"></span>
+              </a>
+            </div>
+            <figure class="image">
+              <img src="assets/img/gwenpool_selfie_by_manu_chann-dawn19u.png" alt="">
+            </figure>
+            <div class="arrow vcenter">
+              <a href="#" class="has-text-white">
+                <span class="fas fa-angle-right"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="tile is-parent">
+          <div class="tile is-child picked-color-text">
+            <div class="columns is-mobile">
+              <div class="column is-2 hcenter">
+                <div class="profile-pic is-inline-block">
+                  <img src="assets/img/gwenpool_selfie_by_manu_chann-dawn19u.png" alt="">
+                </div>
+              </div>
+              <div class="column description-pic font-size-s">
+                <h2 class="description-title has-text-weight-bold">Lorem ipsum dolor.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum veritatis, fuga natus minima quibusdam maxime corporis rerum molestiae praesentium ut blanditiis, reprehenderit recusandae dolore, nobis maiores voluptatum? Enim suscipit, quam?</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+      <!-- This will be the menu -->
       <div class="tile is-parent">
         <div class="tile is-child">
+          <div class="info-menu">
+            <div class="name-account picked-color-bg is-uppercase has-text-weight-bold padding-left-xs">
+              <a href="#" class="picked-color-bg">Gwen Poole</a>
+            </div>
+            <div class="info-profile">
+              <div class="profile-pic is-inline-block margin-right-xs">
+                <img src="assets/img/gwenpool_selfie_by_manu_chann-dawn19u.png" alt="">
+              </div>
+              <div class="profile-info is-inline-block picked-color-text font-size-s">
+                <span class="gender">female</span>
+                <span class="birthday">- 25/04</span>
+                <span class="photos is-block"><span class="quantity-photos has-text-weight-bold">1</span> Photos</span>
+                <span class="place is-block has-text-weight-bold">Manhattan, New York</span>
+              </div>
+            </div>
+            <div class="ff-box">
+              <div class="ff-title picked-color-bg">
+                <div class="ff is-uppercase has-text-weight-bold padding-left-xs">
+                  <a href="#" class="picked-color-bg">Friends Favorites (<span class="friends-quantity">3</span>)</a>
+                </div>
+              </div>
+              <div class="ff-pics">
+                <div class="columns is-mobile">
+                  <div class="column ff-item">
+                    <a><img src="assets/img/georges-batroc.jpg" alt="Georges Batroc"></a>
+                  </div>
+                  <div class="column ff-item">
+                    <a><img src="assets/img/kamala-khan.jpg" alt="Ms. Marvel"></a>
+                  </div>
+                  <div class="column ff-item">
+                    <a><img src="assets/img/cecil.png" alt="Cecil"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+    <div id="comments" class="font-size-s picked-color-text">
+      <div class="columns">
+        <div class="column is-8">
+          <div class="columns is-mobile">
+            <div class="column is-2 hcenter">
+              <div class="profile-pic">
+                <img src="assets/img/kamala-khan.jpg" alt="">
+              </div>
+            </div>
+            <div class="column comment-text">
+              <p><span class="nickname">Kamala</span> On <span class="date">25/01/2010</span></p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore reiciendis modi animi. Iusto aliquid exercitationem saepe nesciunt iste laboriosam! Quos, unde, neque. Qui placeat ratione a, aliquid minus beatae illum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer has-light-grey-bg font-size-s picked-color-text">
+      <div class="container">
+        <div class="breadcrumb is-centered is-hidden-touch">
+          <ul>
+            <li><a href="#" class="font-size-s">About Us</a></li>
+            <li><a href="#" class="font-size-s">FAQ</a></li>
+            <li><a href="#" class="font-size-s">Policy Privacy</a></li>
+            <li><a href="#" class="font-size-s">Terms of Service</a></li>
+            <li><a href="#" class="font-size-s">Community Guidelines</a></li>
+            <li><a href="#" class="font-size-s">Advertisers</a></li>
+            <li><a href="#" class="font-size-s">Contact Us</a></li>
+            <li><a href="#" class="font-size-s"></a>
+              <div class="control">
+                <div class="select is-small">
+                  <select name="" class="languages">
+                    <option value="">English</option>
+                    <option value="">Spanish</option>
+                    <option value="">Portuguese</option>
+                  </select>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="breadcrumb is-centered is-hidden-desktop">
+          <ul>
+            <li><a href="#" class="font-size-s">About Us</a></li>
+            <li><a href="#" class="font-size-s">FAQ</a></li>
+            <li><a href="#" class="font-size-s">Policy Privacy</a></li>
+            <li><a href="#" class="font-size-s">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div class="breadcrumb is-centered is-hidden-desktop">
+          <ul>
+            <li><a href="#" class="font-size-s">Community Guidelines</a></li>
+            <li><a href="#" class="font-size-s">Advertisers</a></li>
+            <li><a href="#" class="font-size-s">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="breadcrumb is-centered is-hidden-desktop">
+          <ul>
+            <li><a href="#" class="font-size-s"></a>
+              <div class="control">
+                <div class="select is-small">
+                  <select name="" class="languages">
+                    <option value="">English</option>
+                    <option value="">Spanish</option>
+                    <option value="">Portuguese</option>
+                  </select>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="copyright has-text-centered">
+          <p>© 2002-2017 Fotolog, Inc. Fotolog ® et Flodo™ are registered trademarks of Fotolog, Inc.</p>
+          <p>No copyright infringement intended. All right belong to their respective owners. This is done with purely educational purposes.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of main container -->
   </div>
   <script src="assets/js/jquery-3.2.1.js"></script>
   <script src="assets/js/app.js"></script>
