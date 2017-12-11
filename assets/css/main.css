@@ -36,6 +36,11 @@ body {
   color: #ff88af;
 }
 
+.picked-color-text a:hover {
+  text-decoration: underline;
+  color: #ff88af;
+}
+
 /* Positions */
 
 .vcenter {
@@ -276,6 +281,7 @@ select.languages:hover {
 }
 
 .comment-text {
+  margin-top: 1em;
   border-left: 1px solid;
   padding-left: 1em;
 }
@@ -291,6 +297,10 @@ select.languages:hover {
   border: 1px solid #47484A;
   font-size: 12px;
   margin-top: 1em;
+}
+
+#post-a-comment {
+  margin-top: 3em;
 }
 
 .file-cta {
